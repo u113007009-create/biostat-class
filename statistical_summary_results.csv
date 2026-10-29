@@ -1,0 +1,5 @@
+﻿Dataset,Variable,Groups,Test,Statistic,P_Value,Significance,Effect_Size,Conclusion
+Mann whitney.xlsx,HER2_level,BC (n=8) vs LUAD (n=9),Mann-Whitney U,"U=1.0 (or 71.0), W=46.0",0.0009,*** (p < 0.001),r = 0.806 (Rank-biserial 0.972),乳癌患者 HER2 表現量顯著高於肺腺癌
+KW_Blood type.xlsx,Height (cm),"A(12), B(10), O(9), AB(13)",Kruskal-Wallis H,H(3)=1.507,0.6806,ns (p > 0.05),epsilon^2 = 0.000,各血型族群間身高無顯著差異
+KW_Pro_salary.xlsx,Salary (Annual),"NBA(10), MLB(10), NFL(10), WNBA(10)",Kruskal-Wallis H & Dunn,H(3)=27.611,< 0.0001,*** (p < 0.001),epsilon^2 = 0.684,"WNBA 薪資顯著低於 NBA, MLB, NFL (p < 0.05)"
+KW_Pro_salary.xlsx,Age,"NBA(10), MLB(10), NFL(10), WNBA(10)",Kruskal-Wallis H & Dunn,H(3)=8.831,0.0316,* (p < 0.05),epsilon^2 = 0.162,MLB 球員年齡顯著高於 NFL 球員 (p=0.021)
